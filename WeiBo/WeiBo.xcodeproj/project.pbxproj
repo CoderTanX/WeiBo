@@ -12,6 +12,11 @@
 		DB48B7A91D66AF8B00B2FC7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB48B7A81D66AF8B00B2FC7A /* Assets.xcassets */; };
 		DB48B7B71D66AF8B00B2FC7A /* WeiBoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB48B7B61D66AF8B00B2FC7A /* WeiBoTests.swift */; };
 		DB48B7C21D66AF8B00B2FC7A /* WeiBoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB48B7C11D66AF8B00B2FC7A /* WeiBoUITests.swift */; };
+		DB48B7E61D66BB0600B2FC7A /* TAXMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB48B7E51D66BB0600B2FC7A /* TAXMainViewController.swift */; };
+		DB48B7E81D66BB2600B2FC7A /* TAXDiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB48B7E71D66BB2600B2FC7A /* TAXDiscoverViewController.swift */; };
+		DB48B7EA1D66BB3700B2FC7A /* TAXHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB48B7E91D66BB3700B2FC7A /* TAXHomeViewController.swift */; };
+		DB48B7EC1D66BB5200B2FC7A /* TAXMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB48B7EB1D66BB5200B2FC7A /* TAXMessageViewController.swift */; };
+		DB48B7EE1D66BB8600B2FC7A /* TAXProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB48B7ED1D66BB8600B2FC7A /* TAXProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +48,11 @@
 		DB48B7BD1D66AF8B00B2FC7A /* WeiBoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeiBoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB48B7C11D66AF8B00B2FC7A /* WeiBoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeiBoUITests.swift; sourceTree = "<group>"; };
 		DB48B7C31D66AF8B00B2FC7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB48B7E51D66BB0600B2FC7A /* TAXMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TAXMainViewController.swift; sourceTree = "<group>"; };
+		DB48B7E71D66BB2600B2FC7A /* TAXDiscoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TAXDiscoverViewController.swift; sourceTree = "<group>"; };
+		DB48B7E91D66BB3700B2FC7A /* TAXHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TAXHomeViewController.swift; sourceTree = "<group>"; };
+		DB48B7EB1D66BB5200B2FC7A /* TAXMessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TAXMessageViewController.swift; sourceTree = "<group>"; };
+		DB48B7ED1D66BB8600B2FC7A /* TAXProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TAXProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,9 +103,9 @@
 		DB48B7A01D66AF8B00B2FC7A /* WeiBo */ = {
 			isa = PBXGroup;
 			children = (
+				DB48B7D71D66B43F00B2FC7A /* Main(主要) */,
 				DB48B7CF1D66B43F00B2FC7A /* Discover(发现) */,
 				DB48B7D31D66B43F00B2FC7A /* Home(首页) */,
-				DB48B7D71D66B43F00B2FC7A /* Main(主要) */,
 				DB48B7DB1D66B43F00B2FC7A /* Message(消息) */,
 				DB48B7DF1D66B43F00B2FC7A /* Profile(我) */,
 				DB48B7A11D66AF8B00B2FC7A /* AppDelegate.swift */,
@@ -137,6 +147,7 @@
 		DB48B7D01D66B43F00B2FC7A /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				DB48B7E71D66BB2600B2FC7A /* TAXDiscoverViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -168,6 +179,7 @@
 		DB48B7D41D66B43F00B2FC7A /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				DB48B7E91D66BB3700B2FC7A /* TAXHomeViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -199,6 +211,7 @@
 		DB48B7D81D66B43F00B2FC7A /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				DB48B7E51D66BB0600B2FC7A /* TAXMainViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -230,6 +243,7 @@
 		DB48B7DC1D66B43F00B2FC7A /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				DB48B7EB1D66BB5200B2FC7A /* TAXMessageViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -261,6 +275,7 @@
 		DB48B7E01D66B43F00B2FC7A /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				DB48B7ED1D66BB8600B2FC7A /* TAXProfileViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -341,6 +356,7 @@
 		DB48B7961D66AF8B00B2FC7A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = TAX;
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "谭安溪";
@@ -409,7 +425,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB48B7EE1D66BB8600B2FC7A /* TAXProfileViewController.swift in Sources */,
 				DB48B7A21D66AF8B00B2FC7A /* AppDelegate.swift in Sources */,
+				DB48B7EC1D66BB5200B2FC7A /* TAXMessageViewController.swift in Sources */,
+				DB48B7E81D66BB2600B2FC7A /* TAXDiscoverViewController.swift in Sources */,
+				DB48B7E61D66BB0600B2FC7A /* TAXMainViewController.swift in Sources */,
+				DB48B7EA1D66BB3700B2FC7A /* TAXHomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

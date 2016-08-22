@@ -17,6 +17,7 @@
 		DB48B7EA1D66BB3700B2FC7A /* TAXHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB48B7E91D66BB3700B2FC7A /* TAXHomeViewController.swift */; };
 		DB48B7EC1D66BB5200B2FC7A /* TAXMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB48B7EB1D66BB5200B2FC7A /* TAXMessageViewController.swift */; };
 		DB48B7EE1D66BB8600B2FC7A /* TAXProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB48B7ED1D66BB8600B2FC7A /* TAXProfileViewController.swift */; };
+		DB71724A1D6A9D810089E644 /* MainVCSettings.json in Resources */ = {isa = PBXBuildFile; fileRef = DB7172491D6A9D810089E644 /* MainVCSettings.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		DB48B7E91D66BB3700B2FC7A /* TAXHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TAXHomeViewController.swift; sourceTree = "<group>"; };
 		DB48B7EB1D66BB5200B2FC7A /* TAXMessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TAXMessageViewController.swift; sourceTree = "<group>"; };
 		DB48B7ED1D66BB8600B2FC7A /* TAXProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TAXProfileViewController.swift; sourceTree = "<group>"; };
+		DB7172491D6A9D810089E644 /* MainVCSettings.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MainVCSettings.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				DB48B7D31D66B43F00B2FC7A /* Home(首页) */,
 				DB48B7DB1D66B43F00B2FC7A /* Message(消息) */,
 				DB48B7DF1D66B43F00B2FC7A /* Profile(我) */,
+				DB7172471D6A9B420089E644 /* Other */,
 				DB48B7A11D66AF8B00B2FC7A /* AppDelegate.swift */,
 				DB48B7A51D66AF8B00B2FC7A /* Main.storyboard */,
 				DB48B7A81D66AF8B00B2FC7A /* Assets.xcassets */,
@@ -294,6 +297,22 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		DB7172471D6A9B420089E644 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				DB7172481D6A9D810089E644 /* Resource */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		DB7172481D6A9D810089E644 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				DB7172491D6A9D810089E644 /* MainVCSettings.json */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -401,6 +420,7 @@
 			files = (
 				DB48B7A91D66AF8B00B2FC7A /* Assets.xcassets in Resources */,
 				DB48B7A71D66AF8B00B2FC7A /* Main.storyboard in Resources */,
+				DB71724A1D6A9D810089E644 /* MainVCSettings.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -651,6 +671,7 @@
 				DB48B7C81D66AF8B00B2FC7A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DB48B7C91D66AF8B00B2FC7A /* Build configuration list for PBXNativeTarget "WeiBoTests" */ = {
 			isa = XCConfigurationList;
@@ -659,6 +680,7 @@
 				DB48B7CB1D66AF8B00B2FC7A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DB48B7CC1D66AF8B00B2FC7A /* Build configuration list for PBXNativeTarget "WeiBoUITests" */ = {
 			isa = XCConfigurationList;
@@ -667,6 +689,7 @@
 				DB48B7CE1D66AF8B00B2FC7A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D56F6E9CCEF6EA39C0A7B77A /* Pods_WeiBo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1662A7C67BD4C35605AEEED3 /* Pods_WeiBo.framework */; };
+		DB0219111D6E944000CD9359 /* TAXPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0219101D6E944000CD9359 /* TAXPresentationController.swift */; };
+		DB0219151D6EA3F600CD9359 /* TAXPopoverAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0219141D6EA3F600CD9359 /* TAXPopoverAnimator.swift */; };
 		DB48B7A21D66AF8B00B2FC7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB48B7A11D66AF8B00B2FC7A /* AppDelegate.swift */; };
-		DB48B7A71D66AF8B00B2FC7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB48B7A51D66AF8B00B2FC7A /* Main.storyboard */; };
 		DB48B7A91D66AF8B00B2FC7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB48B7A81D66AF8B00B2FC7A /* Assets.xcassets */; };
 		DB48B7B71D66AF8B00B2FC7A /* WeiBoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB48B7B61D66AF8B00B2FC7A /* WeiBoTests.swift */; };
 		DB48B7C21D66AF8B00B2FC7A /* WeiBoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB48B7C11D66AF8B00B2FC7A /* WeiBoUITests.swift */; };
@@ -17,7 +19,33 @@
 		DB48B7EA1D66BB3700B2FC7A /* TAXHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB48B7E91D66BB3700B2FC7A /* TAXHomeViewController.swift */; };
 		DB48B7EC1D66BB5200B2FC7A /* TAXMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB48B7EB1D66BB5200B2FC7A /* TAXMessageViewController.swift */; };
 		DB48B7EE1D66BB8600B2FC7A /* TAXProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB48B7ED1D66BB8600B2FC7A /* TAXProfileViewController.swift */; };
+		DB4C3FE01D6C039F003E22D0 /* UIButton-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4C3FDF1D6C039F003E22D0 /* UIButton-Extension.swift */; };
+		DB4C3FE21D6C3F18003E22D0 /* TAXBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4C3FE11D6C3F18003E22D0 /* TAXBaseViewController.swift */; };
+		DB4C3FE41D6C4402003E22D0 /* TAXVistorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4C3FE31D6C4402003E22D0 /* TAXVistorView.swift */; };
+		DB4C3FE61D6C440F003E22D0 /* TAXVistorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB4C3FE51D6C440F003E22D0 /* TAXVistorView.xib */; };
+		DB4CE7FF1D768641005047B2 /* TAXStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4CE7FE1D768641005047B2 /* TAXStatus.swift */; };
+		DB5A75171D6D4D780068700E /* UIBarButtonItem-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5A75161D6D4D780068700E /* UIBarButtonItem-Extension.swift */; };
+		DB5A75191D6D51990068700E /* TAXTitleBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5A75181D6D51990068700E /* TAXTitleBtn.swift */; };
+		DB5A751C1D6D565F0068700E /* TAXPopoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5A751A1D6D565F0068700E /* TAXPopoverViewController.swift */; };
+		DB5A751D1D6D565F0068700E /* TAXPopoverViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB5A751B1D6D565F0068700E /* TAXPopoverViewController.xib */; };
 		DB71724A1D6A9D810089E644 /* MainVCSettings.json in Resources */ = {isa = PBXBuildFile; fileRef = DB7172491D6A9D810089E644 /* MainVCSettings.json */; };
+		DB71725C1D6B10980089E644 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB71725B1D6B10980089E644 /* Main.storyboard */; };
+		DB71725E1D6B10A20089E644 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB71725D1D6B10A20089E644 /* Home.storyboard */; };
+		DB7172621D6B10B10089E644 /* Message.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB7172611D6B10B10089E644 /* Message.storyboard */; };
+		DB7172681D6B12560089E644 /* Discover.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB7172671D6B12560089E644 /* Discover.storyboard */; };
+		DB71726A1D6B12720089E644 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB7172691D6B12720089E644 /* Profile.storyboard */; };
+		DB733A3D1D73E7CF009D83A2 /* TAXOAuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB733A3B1D73E7CF009D83A2 /* TAXOAuthViewController.swift */; };
+		DB733A3E1D73E7CF009D83A2 /* TAXOAuthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB733A3C1D73E7CF009D83A2 /* TAXOAuthViewController.xib */; };
+		DB733A401D74333F009D83A2 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB733A3F1D74333F009D83A2 /* Common.swift */; };
+		DB733A421D743CD5009D83A2 /* NetworkTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB733A411D743CD5009D83A2 /* NetworkTools.swift */; };
+		DB733A441D7444E5009D83A2 /* TAXUserAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB733A431D7444E5009D83A2 /* TAXUserAccount.swift */; };
+		DB7EF4031D756BD800706E46 /* TAXUserAccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7EF4021D756BD800706E46 /* TAXUserAccountViewModel.swift */; };
+		DB7EF4061D7580FC00706E46 /* TAXWelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7EF4041D7580FC00706E46 /* TAXWelcomeViewController.swift */; };
+		DB7EF4071D7580FC00706E46 /* TAXWelcomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB7EF4051D7580FC00706E46 /* TAXWelcomeViewController.xib */; };
+		DBFADC6F1D77D29200B5000F /* NSDate-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFADC6E1D77D29200B5000F /* NSDate-Extension.swift */; };
+		DBFADC711D77D43600B5000F /* TAXUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFADC701D77D43600B5000F /* TAXUser.swift */; };
+		DBFADC731D77DD0B00B5000F /* TAXStatusViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFADC721D77DD0B00B5000F /* TAXStatusViewModel.swift */; };
+		DBFADC751D780F6800B5000F /* TAXHomeViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFADC741D780F6800B5000F /* TAXHomeViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,9 +66,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1662A7C67BD4C35605AEEED3 /* Pods_WeiBo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeiBo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5834A5F546BFE30065B9A72C /* Pods-WeiBo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeiBo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WeiBo/Pods-WeiBo.debug.xcconfig"; sourceTree = "<group>"; };
+		D081174194D12D7B2AF212FB /* Pods-WeiBo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeiBo.release.xcconfig"; path = "Pods/Target Support Files/Pods-WeiBo/Pods-WeiBo.release.xcconfig"; sourceTree = "<group>"; };
+		DB0219101D6E944000CD9359 /* TAXPresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TAXPresentationController.swift; path = "../../Main(主要)/Controller/TAXPresentationController.swift"; sourceTree = "<group>"; };
+		DB0219141D6EA3F600CD9359 /* TAXPopoverAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TAXPopoverAnimator.swift; sourceTree = "<group>"; };
 		DB48B79E1D66AF8B00B2FC7A /* WeiBo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeiBo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB48B7A11D66AF8B00B2FC7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DB48B7A61D66AF8B00B2FC7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DB48B7A81D66AF8B00B2FC7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB48B7AD1D66AF8B00B2FC7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB48B7B21D66AF8B00B2FC7A /* WeiBoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeiBoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -54,7 +86,33 @@
 		DB48B7E91D66BB3700B2FC7A /* TAXHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TAXHomeViewController.swift; sourceTree = "<group>"; };
 		DB48B7EB1D66BB5200B2FC7A /* TAXMessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TAXMessageViewController.swift; sourceTree = "<group>"; };
 		DB48B7ED1D66BB8600B2FC7A /* TAXProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TAXProfileViewController.swift; sourceTree = "<group>"; };
+		DB4C3FDF1D6C039F003E22D0 /* UIButton-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton-Extension.swift"; sourceTree = "<group>"; };
+		DB4C3FE11D6C3F18003E22D0 /* TAXBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TAXBaseViewController.swift; sourceTree = "<group>"; };
+		DB4C3FE31D6C4402003E22D0 /* TAXVistorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TAXVistorView.swift; sourceTree = "<group>"; };
+		DB4C3FE51D6C440F003E22D0 /* TAXVistorView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TAXVistorView.xib; sourceTree = "<group>"; };
+		DB4CE7FE1D768641005047B2 /* TAXStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TAXStatus.swift; sourceTree = "<group>"; };
+		DB5A75161D6D4D780068700E /* UIBarButtonItem-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem-Extension.swift"; sourceTree = "<group>"; };
+		DB5A75181D6D51990068700E /* TAXTitleBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TAXTitleBtn.swift; sourceTree = "<group>"; };
+		DB5A751A1D6D565F0068700E /* TAXPopoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TAXPopoverViewController.swift; sourceTree = "<group>"; };
+		DB5A751B1D6D565F0068700E /* TAXPopoverViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TAXPopoverViewController.xib; sourceTree = "<group>"; };
 		DB7172491D6A9D810089E644 /* MainVCSettings.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MainVCSettings.json; sourceTree = "<group>"; };
+		DB71725B1D6B10980089E644 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		DB71725D1D6B10A20089E644 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		DB7172611D6B10B10089E644 /* Message.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Message.storyboard; sourceTree = "<group>"; };
+		DB7172671D6B12560089E644 /* Discover.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Discover.storyboard; sourceTree = "<group>"; };
+		DB7172691D6B12720089E644 /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Profile.storyboard; path = "WeiBo/Profile(我)/Profile.storyboard"; sourceTree = SOURCE_ROOT; };
+		DB733A3B1D73E7CF009D83A2 /* TAXOAuthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TAXOAuthViewController.swift; sourceTree = "<group>"; };
+		DB733A3C1D73E7CF009D83A2 /* TAXOAuthViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TAXOAuthViewController.xib; sourceTree = "<group>"; };
+		DB733A3F1D74333F009D83A2 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		DB733A411D743CD5009D83A2 /* NetworkTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkTools.swift; sourceTree = "<group>"; };
+		DB733A431D7444E5009D83A2 /* TAXUserAccount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TAXUserAccount.swift; sourceTree = "<group>"; };
+		DB7EF4021D756BD800706E46 /* TAXUserAccountViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TAXUserAccountViewModel.swift; sourceTree = "<group>"; };
+		DB7EF4041D7580FC00706E46 /* TAXWelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TAXWelcomeViewController.swift; sourceTree = "<group>"; };
+		DB7EF4051D7580FC00706E46 /* TAXWelcomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TAXWelcomeViewController.xib; sourceTree = "<group>"; };
+		DBFADC6E1D77D29200B5000F /* NSDate-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDate-Extension.swift"; sourceTree = "<group>"; };
+		DBFADC701D77D43600B5000F /* TAXUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TAXUser.swift; sourceTree = "<group>"; };
+		DBFADC721D77DD0B00B5000F /* TAXStatusViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TAXStatusViewModel.swift; sourceTree = "<group>"; };
+		DBFADC741D780F6800B5000F /* TAXHomeViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TAXHomeViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +120,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D56F6E9CCEF6EA39C0A7B77A /* Pods_WeiBo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +141,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		767793A2087CF5E5C1A81058 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1662A7C67BD4C35605AEEED3 /* Pods_WeiBo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B924CFA182E761B521C82E90 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5834A5F546BFE30065B9A72C /* Pods-WeiBo.debug.xcconfig */,
+				D081174194D12D7B2AF212FB /* Pods-WeiBo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		DB48B7951D66AF8B00B2FC7A = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +165,8 @@
 				DB48B7B51D66AF8B00B2FC7A /* WeiBoTests */,
 				DB48B7C01D66AF8B00B2FC7A /* WeiBoUITests */,
 				DB48B79F1D66AF8B00B2FC7A /* Products */,
+				B924CFA182E761B521C82E90 /* Pods */,
+				767793A2087CF5E5C1A81058 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,13 +184,13 @@
 			isa = PBXGroup;
 			children = (
 				DB48B7D71D66B43F00B2FC7A /* Main(主要) */,
-				DB48B7CF1D66B43F00B2FC7A /* Discover(发现) */,
 				DB48B7D31D66B43F00B2FC7A /* Home(首页) */,
 				DB48B7DB1D66B43F00B2FC7A /* Message(消息) */,
+				DB48B7CF1D66B43F00B2FC7A /* Discover(发现) */,
 				DB48B7DF1D66B43F00B2FC7A /* Profile(我) */,
 				DB7172471D6A9B420089E644 /* Other */,
+				DB4C3FDD1D6C0361003E22D0 /* Tools */,
 				DB48B7A11D66AF8B00B2FC7A /* AppDelegate.swift */,
-				DB48B7A51D66AF8B00B2FC7A /* Main.storyboard */,
 				DB48B7A81D66AF8B00B2FC7A /* Assets.xcassets */,
 				DB48B7AD1D66AF8B00B2FC7A /* Info.plist */,
 			);
@@ -140,6 +218,7 @@
 		DB48B7CF1D66B43F00B2FC7A /* Discover(发现) */ = {
 			isa = PBXGroup;
 			children = (
+				DB7172671D6B12560089E644 /* Discover.storyboard */,
 				DB48B7D01D66B43F00B2FC7A /* Controller */,
 				DB48B7D11D66B43F00B2FC7A /* Model */,
 				DB48B7D21D66B43F00B2FC7A /* View */,
@@ -172,6 +251,7 @@
 		DB48B7D31D66B43F00B2FC7A /* Home(首页) */ = {
 			isa = PBXGroup;
 			children = (
+				DB71725D1D6B10A20089E644 /* Home.storyboard */,
 				DB48B7D41D66B43F00B2FC7A /* Controller */,
 				DB48B7D51D66B43F00B2FC7A /* Model */,
 				DB48B7D61D66B43F00B2FC7A /* View */,
@@ -182,7 +262,11 @@
 		DB48B7D41D66B43F00B2FC7A /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				DB0219101D6E944000CD9359 /* TAXPresentationController.swift */,
 				DB48B7E91D66BB3700B2FC7A /* TAXHomeViewController.swift */,
+				DB5A751A1D6D565F0068700E /* TAXPopoverViewController.swift */,
+				DB5A751B1D6D565F0068700E /* TAXPopoverViewController.xib */,
+				DB0219141D6EA3F600CD9359 /* TAXPopoverAnimator.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -190,6 +274,9 @@
 		DB48B7D51D66B43F00B2FC7A /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				DB4CE7FE1D768641005047B2 /* TAXStatus.swift */,
+				DBFADC701D77D43600B5000F /* TAXUser.swift */,
+				DBFADC721D77DD0B00B5000F /* TAXStatusViewModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -197,6 +284,7 @@
 		DB48B7D61D66B43F00B2FC7A /* View */ = {
 			isa = PBXGroup;
 			children = (
+				DBFADC741D780F6800B5000F /* TAXHomeViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -204,6 +292,7 @@
 		DB48B7D71D66B43F00B2FC7A /* Main(主要) */ = {
 			isa = PBXGroup;
 			children = (
+				DB71725B1D6B10980089E644 /* Main.storyboard */,
 				DB48B7D81D66B43F00B2FC7A /* Controller */,
 				DB48B7D91D66B43F00B2FC7A /* Model */,
 				DB48B7DA1D66B43F00B2FC7A /* View */,
@@ -215,6 +304,11 @@
 			isa = PBXGroup;
 			children = (
 				DB48B7E51D66BB0600B2FC7A /* TAXMainViewController.swift */,
+				DB4C3FE11D6C3F18003E22D0 /* TAXBaseViewController.swift */,
+				DB733A3B1D73E7CF009D83A2 /* TAXOAuthViewController.swift */,
+				DB733A3C1D73E7CF009D83A2 /* TAXOAuthViewController.xib */,
+				DB7EF4041D7580FC00706E46 /* TAXWelcomeViewController.swift */,
+				DB7EF4051D7580FC00706E46 /* TAXWelcomeViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -222,6 +316,8 @@
 		DB48B7D91D66B43F00B2FC7A /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				DB733A431D7444E5009D83A2 /* TAXUserAccount.swift */,
+				DB7EF4021D756BD800706E46 /* TAXUserAccountViewModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -229,6 +325,8 @@
 		DB48B7DA1D66B43F00B2FC7A /* View */ = {
 			isa = PBXGroup;
 			children = (
+				DB4C3FE31D6C4402003E22D0 /* TAXVistorView.swift */,
+				DB4C3FE51D6C440F003E22D0 /* TAXVistorView.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -236,6 +334,7 @@
 		DB48B7DB1D66B43F00B2FC7A /* Message(消息) */ = {
 			isa = PBXGroup;
 			children = (
+				DB7172611D6B10B10089E644 /* Message.storyboard */,
 				DB48B7DC1D66B43F00B2FC7A /* Controller */,
 				DB48B7DD1D66B43F00B2FC7A /* Model */,
 				DB48B7DE1D66B43F00B2FC7A /* View */,
@@ -268,6 +367,7 @@
 		DB48B7DF1D66B43F00B2FC7A /* Profile(我) */ = {
 			isa = PBXGroup;
 			children = (
+				DB7172691D6B12720089E644 /* Profile.storyboard */,
 				DB48B7E01D66B43F00B2FC7A /* Controller */,
 				DB48B7E11D66B43F00B2FC7A /* Model */,
 				DB48B7E21D66B43F00B2FC7A /* View */,
@@ -297,6 +397,27 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		DB4C3FDD1D6C0361003E22D0 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				DB4C3FDE1D6C0361003E22D0 /* Extensions */,
+				DB5A75181D6D51990068700E /* TAXTitleBtn.swift */,
+				DB733A3F1D74333F009D83A2 /* Common.swift */,
+				DB733A411D743CD5009D83A2 /* NetworkTools.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		DB4C3FDE1D6C0361003E22D0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DBFADC6E1D77D29200B5000F /* NSDate-Extension.swift */,
+				DB4C3FDF1D6C039F003E22D0 /* UIButton-Extension.swift */,
+				DB5A75161D6D4D780068700E /* UIBarButtonItem-Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		DB7172471D6A9B420089E644 /* Other */ = {
 			isa = PBXGroup;
 			children = (
@@ -320,9 +441,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DB48B7C61D66AF8B00B2FC7A /* Build configuration list for PBXNativeTarget "WeiBo" */;
 			buildPhases = (
+				D5674BFDAD882B45D7204CD6 /* [CP] Check Pods Manifest.lock */,
 				DB48B79A1D66AF8B00B2FC7A /* Sources */,
 				DB48B79B1D66AF8B00B2FC7A /* Frameworks */,
 				DB48B79C1D66AF8B00B2FC7A /* Resources */,
+				91A77DEB91CC5D3E5C0F932B /* [CP] Embed Pods Frameworks */,
+				618047118DF6F27431CEB504 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -418,9 +542,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB7EF4071D7580FC00706E46 /* TAXWelcomeViewController.xib in Resources */,
+				DB733A3E1D73E7CF009D83A2 /* TAXOAuthViewController.xib in Resources */,
 				DB48B7A91D66AF8B00B2FC7A /* Assets.xcassets in Resources */,
-				DB48B7A71D66AF8B00B2FC7A /* Main.storyboard in Resources */,
+				DB4C3FE61D6C440F003E22D0 /* TAXVistorView.xib in Resources */,
 				DB71724A1D6A9D810089E644 /* MainVCSettings.json in Resources */,
+				DB5A751D1D6D565F0068700E /* TAXPopoverViewController.xib in Resources */,
+				DB71725C1D6B10980089E644 /* Main.storyboard in Resources */,
+				DB7172621D6B10B10089E644 /* Message.storyboard in Resources */,
+				DB71725E1D6B10A20089E644 /* Home.storyboard in Resources */,
+				DB71726A1D6B12720089E644 /* Profile.storyboard in Resources */,
+				DB7172681D6B12560089E644 /* Discover.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,15 +572,82 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		618047118DF6F27431CEB504 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeiBo/Pods-WeiBo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91A77DEB91CC5D3E5C0F932B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeiBo/Pods-WeiBo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5674BFDAD882B45D7204CD6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DB48B79A1D66AF8B00B2FC7A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB733A401D74333F009D83A2 /* Common.swift in Sources */,
+				DBFADC751D780F6800B5000F /* TAXHomeViewCell.swift in Sources */,
+				DB733A421D743CD5009D83A2 /* NetworkTools.swift in Sources */,
+				DB5A75171D6D4D780068700E /* UIBarButtonItem-Extension.swift in Sources */,
+				DB4C3FE41D6C4402003E22D0 /* TAXVistorView.swift in Sources */,
+				DB733A441D7444E5009D83A2 /* TAXUserAccount.swift in Sources */,
 				DB48B7EE1D66BB8600B2FC7A /* TAXProfileViewController.swift in Sources */,
+				DB4C3FE01D6C039F003E22D0 /* UIButton-Extension.swift in Sources */,
+				DB0219151D6EA3F600CD9359 /* TAXPopoverAnimator.swift in Sources */,
 				DB48B7A21D66AF8B00B2FC7A /* AppDelegate.swift in Sources */,
+				DB7EF4061D7580FC00706E46 /* TAXWelcomeViewController.swift in Sources */,
 				DB48B7EC1D66BB5200B2FC7A /* TAXMessageViewController.swift in Sources */,
 				DB48B7E81D66BB2600B2FC7A /* TAXDiscoverViewController.swift in Sources */,
+				DBFADC6F1D77D29200B5000F /* NSDate-Extension.swift in Sources */,
+				DB5A75191D6D51990068700E /* TAXTitleBtn.swift in Sources */,
+				DB7EF4031D756BD800706E46 /* TAXUserAccountViewModel.swift in Sources */,
+				DB5A751C1D6D565F0068700E /* TAXPopoverViewController.swift in Sources */,
+				DBFADC731D77DD0B00B5000F /* TAXStatusViewModel.swift in Sources */,
+				DBFADC711D77D43600B5000F /* TAXUser.swift in Sources */,
+				DB733A3D1D73E7CF009D83A2 /* TAXOAuthViewController.swift in Sources */,
+				DB0219111D6E944000CD9359 /* TAXPresentationController.swift in Sources */,
+				DB4C3FE21D6C3F18003E22D0 /* TAXBaseViewController.swift in Sources */,
+				DB4CE7FF1D768641005047B2 /* TAXStatus.swift in Sources */,
 				DB48B7E61D66BB0600B2FC7A /* TAXMainViewController.swift in Sources */,
 				DB48B7EA1D66BB3700B2FC7A /* TAXHomeViewController.swift in Sources */,
 			);
@@ -484,17 +683,6 @@
 			targetProxy = DB48B7BE1D66AF8B00B2FC7A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		DB48B7A51D66AF8B00B2FC7A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DB48B7A61D66AF8B00B2FC7A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		DB48B7C41D66AF8B00B2FC7A /* Debug */ = {
@@ -582,6 +770,7 @@
 		};
 		DB48B7C71D66AF8B00B2FC7A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5834A5F546BFE30065B9A72C /* Pods-WeiBo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
@@ -595,6 +784,7 @@
 		};
 		DB48B7C81D66AF8B00B2FC7A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D081174194D12D7B2AF212FB /* Pods-WeiBo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";

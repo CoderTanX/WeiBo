@@ -12,13 +12,19 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    var defaultViewController : UIViewController?{
+        let isLogin = TAXUserAccountViewModel.shareInstance.isLogin
+        
+        return isLogin ? TAXWelcomeViewController() : UIStoryboard(name: "Main", bundle: nil).instantiateInitialViewController()
+    }
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
         UITabBar.appearance().tintColor = UIColor.orangeColor()
+        UINavigationBar.appearance().tintColor = UIColor.orangeColor()
+        
         window = UIWindow(frame: UIScreen.mainScreen().bounds)
-        window?.rootViewController = TAXMainViewController()
+        window?.rootViewController = defaultViewController
         window?.makeKeyAndVisible()
         return true
     }

@@ -28,6 +28,7 @@ extension NetworkTools {
         
          // 1.定义成功的回调闭包
         let success = { (task: NSURLSessionDataTask, result: AnyObject?) in
+            print(result)
             finished(result: result, error: nil)
         }
         // 2.定义失败的回调闭包
@@ -82,11 +83,11 @@ extension NetworkTools {
 //MARK: - 请求首页数据
 
 extension NetworkTools {
-    func loadStatuses(finished: (result: [[String: AnyObject]]?, error: NSError?) -> ()){
+    func loadStatuses(since_id: Int, max_id: Int, finished: (result: [[String: AnyObject]]?, error: NSError?) -> ()){
         
         let urlString = "https://api.weibo.com/2/statuses/home_timeline.json"
         
-        let params = ["access_token": (TAXUserAccountViewModel.shareInstance.userAccount?.access_token)!]
+        let params = ["access_token": (TAXUserAccountViewModel.shareInstance.userAccount?.access_token)! , "since_id" : "\(since_id)","max_id": "\(max_id)"]
         
         request(.GET, urlString: urlString, parameters: params) { (result, error) in
             

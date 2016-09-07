@@ -27,6 +27,9 @@ class TAXHomeViewCell: UITableViewCell {
     @IBOutlet weak var picViewWCons: NSLayoutConstraint!
     @IBOutlet weak var picCollectionView: UICollectionView!
     @IBOutlet weak var retweetedContentLabel: UILabel!
+    @IBOutlet weak var retweetedBgView: UIView!
+    @IBOutlet weak var retweetedLableCons: NSLayoutConstraint!
+    @IBOutlet weak var picViewCons: NSLayoutConstraint!
     
     var viewModel: TAXStatusViewModel?{
         didSet{
@@ -45,7 +48,11 @@ class TAXHomeViewCell: UITableViewCell {
             
             if viewModel.status?.retweeted_status == nil {
                 retweetedContentLabel.text = nil
+                retweetedBgView.hidden = true
+                retweetedLableCons.constant = 0
             }else{
+                retweetedBgView.hidden = false
+                 retweetedLableCons.constant = 10
                 if let screenName = viewModel.status?.retweeted_status?.user?.screen_name, text = viewModel.status?.retweeted_status?.text{
                     retweetedContentLabel.text = "@" + screenName + ": " + text
                 }
@@ -80,8 +87,10 @@ extension TAXHomeViewCell {
     private func calculatePicViewSize(count: Int) -> CGSize{
         
         if count == 0 {
+            picViewCons.constant = 0
             return CGSizeZero
         }
+        picViewCons.constant = 10
         
         let layout = picCollectionView.collectionViewLayout as! UICollectionViewFlowLayout
         

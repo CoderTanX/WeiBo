@@ -15,7 +15,7 @@ class TAXMainViewController: UITabBarController {
     ///MARK: - 系统的回调函数
     override func viewDidLoad() {
         
-        super.viewDidLoad()
+        super.viewDidLoad()     
             setupComposeBt()
             
         }
@@ -34,6 +34,8 @@ extension TAXMainViewController {
 //MARK: - 事件监听
 extension TAXMainViewController {
     @objc private func composeBtClick(){
-        print("composeBtClick")
+        let nav = UINavigationController(rootViewController: TAXComposeViewController())
+        
+        presentViewController(nav, animated: true, completion: nil)
     }
 }

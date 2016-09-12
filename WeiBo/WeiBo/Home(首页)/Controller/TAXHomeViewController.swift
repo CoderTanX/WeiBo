@@ -20,6 +20,9 @@ class TAXHomeViewController: TAXBaseViewController {
     ///数据源
     private lazy var viewModels : [TAXStatusViewModel] = Array()
     
+    ///提示label
+    private lazy var tipLabel: UILabel = UILabel()
+    
     //MARK: - 系统回调函数
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -34,6 +37,9 @@ class TAXHomeViewController: TAXBaseViewController {
         
         //设置TableView
         setupTableView()
+        
+        //设置提示文字
+        setupTipLable()
     }
 
 }
@@ -55,13 +61,26 @@ extension TAXHomeViewController {
     }
     ///设置TableView
     private func setupTableView(){
+        
         tableView.mj_header = MJRefreshNormalHeader(refreshingTarget: self, refreshingAction: #selector(loadNewStatuses))
         tableView.mj_footer = MJRefreshAutoFooter(refreshingTarget: self, refreshingAction: #selector(loadMoreStatuses))
         tableView.estimatedRowHeight = 200
         tableView.rowHeight = UITableViewAutomaticDimension
         tableView.mj_header.beginRefreshing()
-
     }
+    
+    private func setupTipLable(){
+        
+        tipLabel.frame = CGRect(x: 0, y: 14, width: UIScreen.mainScreen().bounds.width, height: 30)
+        tipLabel.backgroundColor = UIColor.orangeColor()
+        tipLabel.textColor = UIColor.whiteColor()
+        tipLabel.textAlignment = .Center
+        tipLabel.font = UIFont.systemFontOfSize(14)
+        navigationController?.navigationBar.insertSubview(tipLabel, atIndex: 0)
+        tipLabel.hidden = true
+    }
+    
+    
     
 }
 
@@ -134,7 +153,7 @@ extension TAXHomeViewController {
                 self.viewModels += tempViewModels
             }
             
-            self.cacheImages(self.viewModels)
+            self.cacheImages(tempViewModels)
         }
 
     }
@@ -158,9 +177,24 @@ extension TAXHomeViewController {
             //结束刷新
             self.tableView.mj_header.endRefreshing()
             self.tableView.mj_footer.endRefreshing()
+            self.showTipLable(viewModels.count)
         }
     }
     
+    private func showTipLable(count: Int){
+        
+        UIView.animateWithDuration(1, animations: {
+            self.tipLabel.hidden = false
+            self.tipLabel.frame.origin.y = 44
+            self.tipLabel.text = (count == 0) ? "没有新数据" : "\(count)条数据"
+            }) { (_) in
+                UIView.animateWithDuration(1, delay: 0.5, options: [], animations: {
+                    self.tipLabel.frame.origin.y = 14
+                    }, completion: { (_) in
+                        self.tipLabel.hidden = true
+                })
+        }
+    }
     
 }
 

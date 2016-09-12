@@ -95,6 +95,7 @@ extension TAXHomeViewCell {
         let layout = picCollectionView.collectionViewLayout as! UICollectionViewFlowLayout
         
         if count == 1 {
+            
             let urlString = viewModel?.picURLs.first?.absoluteString
             let image = SDWebImageManager.sharedManager().imageCache.imageFromDiskCacheForKey(urlString)
             layout.itemSize = image.size

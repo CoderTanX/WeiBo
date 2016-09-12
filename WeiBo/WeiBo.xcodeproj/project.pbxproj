@@ -24,10 +24,16 @@
 		DB4C3FE41D6C4402003E22D0 /* TAXVistorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4C3FE31D6C4402003E22D0 /* TAXVistorView.swift */; };
 		DB4C3FE61D6C440F003E22D0 /* TAXVistorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB4C3FE51D6C440F003E22D0 /* TAXVistorView.xib */; };
 		DB4CE7FF1D768641005047B2 /* TAXStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4CE7FE1D768641005047B2 /* TAXStatus.swift */; };
+		DB5053A11D81067100A9978C /* TAXComposeTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5053A01D81067100A9978C /* TAXComposeTitleView.swift */; };
+		DB5053A31D810F3A00A9978C /* TAXComposeTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5053A21D810F3A00A9978C /* TAXComposeTextView.swift */; };
 		DB5A75171D6D4D780068700E /* UIBarButtonItem-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5A75161D6D4D780068700E /* UIBarButtonItem-Extension.swift */; };
 		DB5A75191D6D51990068700E /* TAXTitleBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5A75181D6D51990068700E /* TAXTitleBtn.swift */; };
 		DB5A751C1D6D565F0068700E /* TAXPopoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5A751A1D6D565F0068700E /* TAXPopoverViewController.swift */; };
 		DB5A751D1D6D565F0068700E /* TAXPopoverViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB5A751B1D6D565F0068700E /* TAXPopoverViewController.xib */; };
+		DB5CD9571D801F250099B0AA /* TAXComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5CD9551D801F250099B0AA /* TAXComposeViewController.swift */; };
+		DB5CD9581D801F250099B0AA /* TAXComposeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB5CD9561D801F250099B0AA /* TAXComposeViewController.xib */; };
+		DB6926D21D865498003EAE9A /* TAXPicPickerViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6926D01D865498003EAE9A /* TAXPicPickerViewCell.swift */; };
+		DB6926D31D865498003EAE9A /* TAXPicPickerViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB6926D11D865498003EAE9A /* TAXPicPickerViewCell.xib */; };
 		DB71724A1D6A9D810089E644 /* MainVCSettings.json in Resources */ = {isa = PBXBuildFile; fileRef = DB7172491D6A9D810089E644 /* MainVCSettings.json */; };
 		DB71725C1D6B10980089E644 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB71725B1D6B10980089E644 /* Main.storyboard */; };
 		DB71725E1D6B10A20089E644 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB71725D1D6B10A20089E644 /* Home.storyboard */; };
@@ -91,10 +97,16 @@
 		DB4C3FE31D6C4402003E22D0 /* TAXVistorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TAXVistorView.swift; sourceTree = "<group>"; };
 		DB4C3FE51D6C440F003E22D0 /* TAXVistorView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TAXVistorView.xib; sourceTree = "<group>"; };
 		DB4CE7FE1D768641005047B2 /* TAXStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TAXStatus.swift; sourceTree = "<group>"; };
+		DB5053A01D81067100A9978C /* TAXComposeTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TAXComposeTitleView.swift; sourceTree = "<group>"; };
+		DB5053A21D810F3A00A9978C /* TAXComposeTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TAXComposeTextView.swift; sourceTree = "<group>"; };
 		DB5A75161D6D4D780068700E /* UIBarButtonItem-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem-Extension.swift"; sourceTree = "<group>"; };
 		DB5A75181D6D51990068700E /* TAXTitleBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TAXTitleBtn.swift; sourceTree = "<group>"; };
 		DB5A751A1D6D565F0068700E /* TAXPopoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TAXPopoverViewController.swift; sourceTree = "<group>"; };
 		DB5A751B1D6D565F0068700E /* TAXPopoverViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TAXPopoverViewController.xib; sourceTree = "<group>"; };
+		DB5CD9551D801F250099B0AA /* TAXComposeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TAXComposeViewController.swift; sourceTree = "<group>"; };
+		DB5CD9561D801F250099B0AA /* TAXComposeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TAXComposeViewController.xib; sourceTree = "<group>"; };
+		DB6926D01D865498003EAE9A /* TAXPicPickerViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TAXPicPickerViewCell.swift; sourceTree = "<group>"; };
+		DB6926D11D865498003EAE9A /* TAXPicPickerViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TAXPicPickerViewCell.xib; sourceTree = "<group>"; };
 		DB7172491D6A9D810089E644 /* MainVCSettings.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MainVCSettings.json; sourceTree = "<group>"; };
 		DB71725B1D6B10980089E644 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		DB71725D1D6B10A20089E644 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
@@ -183,6 +195,7 @@
 		DB48B7A01D66AF8B00B2FC7A /* WeiBo */ = {
 			isa = PBXGroup;
 			children = (
+				DB5CD9511D801EA60099B0AA /* Compose(发布) */,
 				DB48B7D71D66B43F00B2FC7A /* Main(主要) */,
 				DB48B7D31D66B43F00B2FC7A /* Home(首页) */,
 				DB48B7DB1D66B43F00B2FC7A /* Message(消息) */,
@@ -418,6 +431,43 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		DB5CD9511D801EA60099B0AA /* Compose(发布) */ = {
+			isa = PBXGroup;
+			children = (
+				DB5CD9521D801EA60099B0AA /* Contoller */,
+				DB5CD9531D801EA60099B0AA /* Model */,
+				DB5CD9541D801EA60099B0AA /* View */,
+			);
+			path = "Compose(发布)";
+			sourceTree = "<group>";
+		};
+		DB5CD9521D801EA60099B0AA /* Contoller */ = {
+			isa = PBXGroup;
+			children = (
+				DB5CD9551D801F250099B0AA /* TAXComposeViewController.swift */,
+				DB5CD9561D801F250099B0AA /* TAXComposeViewController.xib */,
+			);
+			path = Contoller;
+			sourceTree = "<group>";
+		};
+		DB5CD9531D801EA60099B0AA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DB5CD9541D801EA60099B0AA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DB5053A01D81067100A9978C /* TAXComposeTitleView.swift */,
+				DB5053A21D810F3A00A9978C /* TAXComposeTextView.swift */,
+				DB6926D01D865498003EAE9A /* TAXPicPickerViewCell.swift */,
+				DB6926D11D865498003EAE9A /* TAXPicPickerViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		DB7172471D6A9B420089E644 /* Other */ = {
 			isa = PBXGroup;
 			children = (
@@ -545,9 +595,11 @@
 				DB7EF4071D7580FC00706E46 /* TAXWelcomeViewController.xib in Resources */,
 				DB733A3E1D73E7CF009D83A2 /* TAXOAuthViewController.xib in Resources */,
 				DB48B7A91D66AF8B00B2FC7A /* Assets.xcassets in Resources */,
+				DB5CD9581D801F250099B0AA /* TAXComposeViewController.xib in Resources */,
 				DB4C3FE61D6C440F003E22D0 /* TAXVistorView.xib in Resources */,
 				DB71724A1D6A9D810089E644 /* MainVCSettings.json in Resources */,
 				DB5A751D1D6D565F0068700E /* TAXPopoverViewController.xib in Resources */,
+				DB6926D31D865498003EAE9A /* TAXPicPickerViewCell.xib in Resources */,
 				DB71725C1D6B10980089E644 /* Main.storyboard in Resources */,
 				DB7172621D6B10B10089E644 /* Message.storyboard in Resources */,
 				DB71725E1D6B10A20089E644 /* Home.storyboard in Resources */,
@@ -625,6 +677,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB6926D21D865498003EAE9A /* TAXPicPickerViewCell.swift in Sources */,
 				DB733A401D74333F009D83A2 /* Common.swift in Sources */,
 				DBFADC751D780F6800B5000F /* TAXHomeViewCell.swift in Sources */,
 				DB733A421D743CD5009D83A2 /* NetworkTools.swift in Sources */,
@@ -632,12 +685,14 @@
 				DB4C3FE41D6C4402003E22D0 /* TAXVistorView.swift in Sources */,
 				DB733A441D7444E5009D83A2 /* TAXUserAccount.swift in Sources */,
 				DB48B7EE1D66BB8600B2FC7A /* TAXProfileViewController.swift in Sources */,
+				DB5053A11D81067100A9978C /* TAXComposeTitleView.swift in Sources */,
 				DB4C3FE01D6C039F003E22D0 /* UIButton-Extension.swift in Sources */,
 				DB0219151D6EA3F600CD9359 /* TAXPopoverAnimator.swift in Sources */,
 				DB48B7A21D66AF8B00B2FC7A /* AppDelegate.swift in Sources */,
 				DB7EF4061D7580FC00706E46 /* TAXWelcomeViewController.swift in Sources */,
 				DB48B7EC1D66BB5200B2FC7A /* TAXMessageViewController.swift in Sources */,
 				DB48B7E81D66BB2600B2FC7A /* TAXDiscoverViewController.swift in Sources */,
+				DB5053A31D810F3A00A9978C /* TAXComposeTextView.swift in Sources */,
 				DBFADC6F1D77D29200B5000F /* NSDate-Extension.swift in Sources */,
 				DB5A75191D6D51990068700E /* TAXTitleBtn.swift in Sources */,
 				DB7EF4031D756BD800706E46 /* TAXUserAccountViewModel.swift in Sources */,
@@ -650,6 +705,7 @@
 				DB4CE7FF1D768641005047B2 /* TAXStatus.swift in Sources */,
 				DB48B7E61D66BB0600B2FC7A /* TAXMainViewController.swift in Sources */,
 				DB48B7EA1D66BB3700B2FC7A /* TAXHomeViewController.swift in Sources */,
+				DB5CD9571D801F250099B0AA /* TAXComposeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
